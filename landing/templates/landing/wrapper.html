@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+{% load staticfiles %}
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Центр Авторемонта</title>
+  <link rel="shortcut icon" href="{% static "landing/image/icon.png" %}" />
+
+  <!-- Web Fonts -->
+  <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,100,300,700,900&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+  <!-- End of Web Fonts -->
+
+  <!-- Bootstrap & styles -->
+  <link href="{% static "landing/css/bootstrap.min.css" %}" rel="stylesheet">
+  <link href="{% static "landing/css/bootstrap-theme.min.css" %}" rel="stylesheet">
+  <link href="{% static "landing/css/block_grid_bootstrap.css" %}" rel="stylesheet">
+  <link href="{% static "landing/css/font-awesome.min.css" %}" rel="stylesheet">
+  <link href="{% static "landing/css/typicons.min.css" %}" rel="stylesheet">
+  <link href="{% static "landing/css/odometer-theme-default.css" %}" rel="stylesheet">
+  <link href="{% static "landing/css/slider-pro.min.css" %}" rel="stylesheet">
+  <link href="{% static "landing/css/animate-custom.css" %}" rel="stylesheet">
+  <link href="{% static "landing/css/owl.carousel.css" %}" rel="stylesheet">
+  <link href="{% static "landing/css/owl.theme.default.min.css" %}" rel="stylesheet">
+  <link href="{% static "landing/css/magnific-popup.css" %}" rel="stylesheet">
+  <link href="{% static "landing/css/slicknav.min.css" %}" rel="stylesheet">
+  <link href="{% static "landing/css/style.css" %}" rel="stylesheet">
+  <!-- End of Bootstrap & styles -->
+
+</head>
+<body style="background: #3f0fec1a">
+
+    {% block content %}
+    {% endblock %}
+
+  <div class="copyright">
+    <div class="row">
+      <div class="col-sm-12">
+        <p class="text-center">&copy; Центр покраски и восстановления автомобиля Pay'n'Spray. Все права защищены. 2018-2019 <!-- <a href="http://example.com/" style="color:#fff; text-decoration:underline" target="_blank">MatroNet</a> --></p>
+      </div>
+    </div>
+  </div>  <a href="#top" id="back-to-top"><i class="fa fa-angle-up"></i></a>
+
+  </hr>
+    <!-- Javascript files -->
+    <script>
+      var domain = 'matronet.com/site/1070';
+    </script>
+    <script src="http://matronet.com/site/1070/js/jquery.min.js"></script>
+    <script src="http://matronet.com/site/1070/js/bootstrap.min.js"></script>
+    <script src="http://matronet.com/site/1070/js/jquery.hoverIntent.js"></script>
+    <script src="http://matronet.com/site/1070/js/superfish.min.js"></script>
+    <script src="http://matronet.com/site/1070/js/jquery.sliderPro.min.js"></script>
+    <script src="http://matronet.com/site/1070/js/owl.carousel.min.js"></script>
+    <script src="http://matronet.com/site/1070/js/odometer.min.js"></script>
+    <script src="http://matronet.com/site/1070/js/waypoints.min.js"></script>
+    <script src="http://matronet.com/site/1070/js/jquery.slicknav.min.js"></script>
+    <script src="http://matronet.com/site/1070/js/wow.min.js"></script>
+    <script src="http://matronet.com/site/1070/js/jquery.isotope.js"></script>
+    <script src="http://matronet.com/site/1070/js/jquery.magnific-popup.min.js"></script>
+
+    <script src="http://matronet.com/site/1070/js/retina.min.js"></script>
+    <script src="http://matronet.com/site/1070/js/custom.js"></script>
+    <script src="http://matronet.com/site/1070/js/jquery.maskedinput.js"></script>
+    <!-- End of Javascript files -->
+    <script src="{% static "landing/js/jquery.custom.js" %}"></script>
+</body>
+</html>

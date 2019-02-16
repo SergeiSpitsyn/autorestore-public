@@ -1,0 +1,15 @@
+{% extends "landing/wrapper.html" %}
+
+{% block content %}
+    {% include "news/includes/header.html" %}
+    <div class="container">
+        <h2 class="text-info">{{ article.title }}</h2>
+        <h6 class="text-info">{{ article.date|date:"d-m-Y в H:i:s" }}</h6>
+        <p>{{ article.post|safe|linebreaks }}</p>
+        <br>
+        <br>
+        <br>
+        <br>
+    </div>
+    {% include "landing/includes/footer.html" %}
+{% endblock %}

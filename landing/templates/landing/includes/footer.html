@@ -1,0 +1,102 @@
+<!-- Footer -->
+<section class="footer">
+
+    <div class="footer-elements">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="row no-gutter">
+                    <!-- Footer top element -->
+                    <div class="col-sm-3">
+                        <div class="footer-element">
+                            <span class="typcn typcn-watch"></span>
+                            <p>ВРЕМЯ РАБОТЫ:<span>ПН - ПТ 09:00 - 21:00</span></p>
+                        </div>
+                    </div>
+                    <!-- Footer top element -->
+                    <!-- Footer top element -->
+                    <div class="col-sm-3">
+                        <div class="footer-element">
+                            <span class="typcn typcn-location-outline"></span>
+                            <p>АДРЕС:<span>Санкт-Петербург, Киришская ул., д.4а</span></p>
+                        </div>
+                    </div>
+                    <!-- Footer top element -->
+                    <!-- Footer top element -->
+                    <div class="col-sm-3">
+                        <div class="footer-element">
+                            <span class="typcn typcn-mail"></span>
+                            <p>E-MAIL:<span><a href="mailto:info@paynspray.ru">info@paynspray.ru</a></span></p>
+                        </div>
+                    </div>
+                    <!-- Footer top element -->
+                    <!-- Footer top element -->
+                    <div class="col-sm-3">
+                        <div class="footer-element">
+                            <span class="typcn typcn-phone-outline"></span>
+                            <p>ТЕЛЕФОН:<span><a href="tel:8 800 600 7218">8 800 600 7218</a></span></p>
+                        </div>
+                    </div>
+                    <!-- Footer top element -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-widgets">
+        <div class="row">
+            <!-- Footer widget -->
+            <div class="col-sm-4">
+                <div class="footer-widget">
+                    <h5>О НАС</h5>
+                    <p>Центр покраски и восстановления автомобиля Pay'n'Spray: Мы обеспечиваем широкий спектр услуг для наилучшего состояния вашего автомобиля. У нас вы можете успешно и быстро производить диагностику автомобиля и ремонт любой сложности. Наши специалисты высочайшей квалификации - гарантия качества выполненных работ</p>
+                </div>
+            </div>
+            <!-- End of Footer widget -->
+            <!-- Footer widget -->
+            <div class="col-sm-4">
+                <div class="footer-widget">
+                    <h5>НОВОСТИ</h5>
+                    <ul class="posts">
+                        {% for post in object_list %}
+                            <li>
+                                <a href="/news/{{ post.id }}">{{ post.title }}</a>
+                                <span>{{ post.date|date:"d-m-Y" }}</span>
+                            </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+            <!-- End of Footer widget -->
+            <!-- Footer widget -->
+            <div class="col-sm-4">
+                <div class="footer-widget">
+                    <h5>МЕНЮ</h5>
+                    <ul class="posts">
+                        <li><a href="/">Главная</a></li>
+                        <li><a href="/about">О компании</a></li>
+                        <li><a href="/services">Услуги</a></li>
+                        <li><a href="/news">Новости и акции</a></li>
+                        <li><a href="/contacts">Контакты</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- End of Footer widget -->
+            <!-- Footer widget -->
+            <!-- <div class="col-sm-3">
+                <div class="footer-widget">
+                        <h5>ЗАКАЗ ЗВОНКА</h5>
+                        <p>Введите номер Вашего телефона</p>
+                    <div id="back-box">
+                        <form class="form-inline validate material" action="#" method="post" >
+                        <input id="back-phone" type="text" placeholder="Телефон" required>
+                        <input type="button" value="ЗАКАЗАТЬ ЗВОНОК" id="back-button" class="mtr-btn button-blue">
+                        </form>
+                    </div>
+                    <div id="back-message" style="display:none; margin-top:40px;"><b style="color:#ffffff">Скоро мы Вам перезвоним!</b>
+                    </div>
+                </div>
+            </div> -->
+            <!-- End of Footer widget -->
+        </div>
+    </div>
+</section>
+<!-- End of Footer -->
