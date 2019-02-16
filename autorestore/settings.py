@@ -86,11 +86,11 @@ WSGI_APPLICATION = 'autorestore.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'db1',
-        'USER': 'django_autorestore',
-        'PASSWORD': 'PipUpMyRide!',
+        'NAME': 'autorestoredb',
+        'USER': 'admin',
+        'PASSWORD': 'Try2Guess',
         'HOST': 'localhost',  # Set to empty string for localhost.
-        'PORT': '',  # Set to empty string for default.
+        'PORT': '5432',  # Set to empty string for default.
     }
 }
 
@@ -134,7 +134,8 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 
+
 try:
-    from .settings_prod import *
+   from .settings_prod import *
 except:
     pass
