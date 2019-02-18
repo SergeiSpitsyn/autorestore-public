@@ -24,7 +24,7 @@ urlpatterns = [
     # Added by -Grey-:
     path('', include('landing.urls')),
     path('about', include('about.urls')),
-    path('news', include('news.urls')),
+    path('news/', include('news.urls')),
     path('contacts', include('contacts.urls')),
     path('services', include('services.urls')),
 ]
