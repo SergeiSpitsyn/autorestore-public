@@ -131,15 +131,17 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.1/howto/static-files/
 
-STATICFILES_DIRS = [
+# STATICFILES_DIRS = [
 #     os.path.join(BASE_DIR, "static"),
-    '/project/static/',
-    '/webapps/django_autorestore/static/',
-]
+#     '/project/static/',
+#     '/webapps/django_autorestore/static/',
+#     '/webapps/django_autorestore/project/static/',
+# ]
 
 STATIC_URL = '/static/'
 
-STATIC_ROOT = os.path.join(BASE_DIR, "static")
+# STATIC_ROOT = os.path.join(BASE_DIR, "static")
+STATIC_ROOT = '/webapps/django_autorestore/project/static/'
 
 
 
