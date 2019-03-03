@@ -141,10 +141,10 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 # STATIC_ROOT = os.path.join(BASE_DIR, "static")
-STATIC_ROOT = '/webapps/django_autorestore/project/static/'
+STATIC_ROOT = '/webapps/django_autorestore/static/'
 
 
-
+# !Before deployment:
 try:
    from .settings_prod import *
 except:
