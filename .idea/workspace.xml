@@ -2,20 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="000679ee-1bd0-443f-ab29-4012a2213131" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about/templates/about/includes/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/about/templates/about/includes/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contacts/templates/contacts/includes/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/contacts/templates/contacts/includes/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/landing/static/landing/image/icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/landing/templates/landing/includes/clients.html" beforeDir="false" afterPath="$PROJECT_DIR$/landing/templates/landing/includes/clients.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/landing/templates/landing/includes/features.html" beforeDir="false" afterPath="$PROJECT_DIR$/landing/templates/landing/includes/features.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/landing/templates/landing/includes/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/landing/templates/landing/includes/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/landing/templates/landing/includes/logonav.html" beforeDir="false" afterPath="$PROJECT_DIR$/landing/templates/landing/includes/logonav.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/landing/templates/landing/includes/topbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/landing/templates/landing/includes/topbar.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/landing/templates/landing/wrapper.html" beforeDir="false" afterPath="$PROJECT_DIR$/landing/templates/landing/wrapper.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/news/templates/news/includes/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/news/templates/news/includes/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/templates/services/includes/body.html" beforeDir="false" afterPath="$PROJECT_DIR$/services/templates/services/includes/body.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/templates/services/includes/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/services/templates/services/includes/header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Requirements.txt" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -79,17 +67,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/autorestore/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1768">
-              <caret line="146" column="21" lean-forward="true" selection-start-line="146" selection-start-column="21" selection-end-line="146" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/autorestore/settings_prod.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="-1478">
+              <caret line="49" column="1" lean-forward="true" selection-start-line="49" selection-start-column="1" selection-end-line="50" />
             </state>
           </provider>
         </entry>
@@ -317,7 +296,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27231467" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -715,8 +694,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/autorestore/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1768">
-          <caret line="146" column="21" lean-forward="true" selection-start-line="146" selection-start-column="21" selection-end-line="146" selection-end-column="21" />
+        <state relative-caret-position="-1478">
+          <caret line="49" column="1" lean-forward="true" selection-start-line="49" selection-start-column="1" selection-end-line="50" />
         </state>
       </provider>
     </entry>
